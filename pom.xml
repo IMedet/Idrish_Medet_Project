@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>kz.medet</groupId>
-    <artifactId>Idrish_Medet_Project</artifactId>
+    <artifactId>Idrish_Medet_Shop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Idrish_Medet_Project</name>
     <description>Idrish_Medet_Project</description>
