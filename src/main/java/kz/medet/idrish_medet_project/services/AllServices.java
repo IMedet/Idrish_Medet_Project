@@ -132,4 +132,17 @@ public class AllServices {
     }
 
 
+    public boolean updateProduct(Long productId, String productName, double productPrice) {
+        Optional<Product> optionalProduct = productRepository.findById(productId);
+
+        if (optionalProduct.isPresent()) {
+            Product product = optionalProduct.get();
+
+            product.setName(productName);
+            product.setPrice(productPrice);
+            productRepository.save(product);
+            return true;
+        }
+        return false;
+    }
 }
